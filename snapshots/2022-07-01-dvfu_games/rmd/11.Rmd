@@ -1,0 +1,33 @@
+```{r data generation, echo = FALSE, results = 'hide'}
+
+```
+
+Question
+========
+Рассмотрим бесконечно повторяемую классическую  дилемму заключенного с дисконт-фактором $\delta$.
+
+Сколько существует различных равновесий Нэша, совершенных в подыграх, при $\delta \to 1$?
+
+Answerlist
+----------
+*  бесконечно много
+*  1
+*  2
+*  3
+*  4
+*  нет верного ответа
+
+
+Solution
+========
+
+
+Meta-information
+================
+exname: number of spne in repeated prisoner's dilemma
+extype: schoice
+exsolution: 100000
+exshuffle: 6
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exsection: ...

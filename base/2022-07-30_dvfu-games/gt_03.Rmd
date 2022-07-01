@@ -1,0 +1,35 @@
+```{r data generation, echo = FALSE, results = 'hide'}
+a = sample(5:8, size = 1)
+b = sample(6:9, size = 1)
+```
+
+Question
+========
+Рассмотрим одновременную игру двух игроков. 
+У первого игрока `r a` чистых стратегий, у второго — `r b` чистых стратегий. 
+
+Сколько всего есть смешанных стратегий у первого игрока?
+
+Answerlist
+----------
+*  нет верного ответа
+*  `r a`
+*  `r a - 1`
+*  `r 2*a`
+*  `r a * b`
+*  `r a + 1`
+
+
+Solution
+========
+
+
+Meta-information
+================
+exname: number of mixed strategies
+extype: schoice
+exsolution: 100000
+exshuffle: 6
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exsection: ...

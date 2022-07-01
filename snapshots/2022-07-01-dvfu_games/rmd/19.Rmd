@@ -1,0 +1,34 @@
+```{r data generation, echo = FALSE, results = 'hide'}
+```
+
+Question
+========
+В кучке 124 камня. Петя и Вася ходят по очереди, Петя начинает. 
+За один ход Петя берет от 1 до 5 камней, а Вася — от 1 до 4. 
+Выигрывает тот, кто возьмёт последний камень. Оба игрока хотят выиграть.
+
+Какой ход необходимо сделать Пете в начале игры для своей победы?
+
+Answerlist
+----------
+*  4
+*  1
+*  2
+*  3
+*  5
+*  нет верного ответа
+
+
+Solution
+========
+
+
+Meta-information
+================
+exname: backward induction or symmetry
+extype: schoice
+exsolution: 100000
+exshuffle: 6
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exsection: ...

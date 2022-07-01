@@ -1,0 +1,47 @@
+```{r data generation, echo = FALSE, results = 'hide'}
+a = sample(1:2, size = 1)
+b = sample(1:4, size = 1)
+
+ans_correct = sample(c(2, 3), size = 1)
+
+wrong_deltas = c(-1, 1, 2, 3)
+ans_wrong = ans_correct + wrong_deltas
+```
+
+Question
+========
+Рассмотрим одновременную игру с матрицей
+$$
+\begin{matrix}
+   & e & f \\
+a  & (1, `r 2 + a`) & (3, 4) \\
+b  & (4, `r -1 - b`) & (1, `r 2 + ans_correct`) \\
+c  & (3, 0) & (2, 2). \\
+\end{matrix}
+$$
+
+Найдите количество Парето-оптимальных исходов в чистых стратегиях. 
+
+Answerlist
+----------
+*  `r ans_correct`
+*  `r ans_wrong[1]`
+*  `r ans_wrong[2]`
+*  `r ans_wrong[3]`
+*  `r ans_wrong[4]`
+*  нет верного ответа
+
+
+Solution
+========
+
+
+Meta-information
+================
+exname: pareto optimum number
+extype: schoice
+exsolution: 100000
+exshuffle: 6
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exsection: ...

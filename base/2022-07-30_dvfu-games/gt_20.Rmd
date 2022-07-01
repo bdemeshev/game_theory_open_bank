@@ -1,0 +1,33 @@
+```{r data generation, echo = FALSE, results = 'hide'}
+```
+
+Question
+========
+У Ани есть старый левый ботинок, у Бори — левый, у Вовы — правый. 
+Продать можно только пару ботинок за 600 рублей. По отдельности ботинки ничего не стоят. 
+
+Выберите вектор $(a, b, c)$ выигрышей Ани, Бори и Вовы, лежащий в ядре этой кооперативной игры. 
+
+Answerlist
+----------
+*  нет верного ответа
+*  (200, 200, 200)
+*  (100, 100, 400)
+*  (150, 150, 300)
+*  (100, 100, 100)
+*  (300, 300, 300)
+
+
+Solution
+========
+
+
+Meta-information
+================
+exname: core of the game
+extype: schoice
+exsolution: 100000
+exshuffle: 6
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exsection: ...

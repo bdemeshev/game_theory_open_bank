@@ -1,0 +1,61 @@
+```{r data generation, echo = FALSE, results = 'hide'}
+b = sample(6:9, size = 1)
+d = sample(1:6, size = 1)
+
+G1 = matrix(0, nrow = 2, ncol = 2)
+G2 = matrix(0, nrow = 2, ncol = 2)
+G1[1, 1] = 4
+G2[1, 1] = 4
+G1[2, 2] = 1
+G2[2, 2] = 1
+G1[1, 2] = 0
+G2[1, 2] = b
+G1[2, 1] = b
+G2[2, 1] = 0
+
+G1 = G1 + d
+G2 = G2 + d
+
+ans = round((b-4)/(b - 1), 2)
+wrong = round((b - 4)/(b + 2 * (1:4)), 2)
+```
+
+Question
+========
+Рассмотрим бесконечно повторяемую дилемму заключенного с дисконт-фактором $\delta$. 
+$$
+\begin{matrix}
+   & c & d \\
+c  & (`r G1[1, 1]`, `r G2[1, 1]`) & (`r G1[1, 2]`, `r G2[1, 2]`) \\
+d  & (`r G1[2, 1]`, `r G2[2, 1]`) & (`r G1[2, 2]`, `r G2[2, 2]`) \\
+\end{matrix}
+$$
+
+При каком наименьшем $\delta$ пара стратегий жёсткого переключения (grim trigger) будет 
+равновесием Нэша, совершенным в подыграх?
+
+Ответы указаны с точностью до двух знаков после запятой. 
+
+Answerlist
+----------
+*  `r ans`
+*  `r wrong[1]`
+*  `r wrong[2]`
+*  `r wrong[3]`
+*  `r wrong[4]`
+*  нет верного ответа
+
+
+Solution
+========
+
+
+Meta-information
+================
+exname: grim trigger
+extype: schoice
+exsolution: 100000
+exshuffle: 6
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exsection: ...
