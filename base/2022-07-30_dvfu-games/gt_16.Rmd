@@ -13,12 +13,12 @@ Question
 
 Answerlist
 ----------
+*  нет верного ответа
 *  $u(a) > u(b)$
 *  $u(a) < u(b)$
 *  $u(c) > u(a)$
 *  $u(c) > u(b)$
 *  $u(c) < u(a)$
-*  нет верного ответа
 
 
 Solution
