@@ -9,7 +9,7 @@ library(exams)
 library(rexamsconverter)
 
 
-filenames = list.files(c('../base/2022-07-30_dvfu-games/'),
+filenames = list.files(c('../base/2022-07-01_dvfu-games/'),
                        pattern = "*.Rmd",
                        full.names = TRUE, recursive = TRUE)
 
