@@ -1,0 +1,36 @@
+```{r data generation, echo = FALSE, results = 'hide'}
+a = round(sample(1:3, size = 1) / 10, 1)
+b = round(1 - 2*a, 1)
+```
+
+Question
+========
+У Саши три чистых стратегии, $a$, $b$ и $c$.
+В единственном смешанном равновесии Нэша она выбирает $a$ с вероятностью `r a`, $b$ — с вероятностью `r b`.
+
+Что можно утверждать об ожидаемых выигрышах Саши от выбора этих стратегий при фиксированных стратегиях остальных игроков?
+
+
+Answerlist
+----------
+*  нет верного ответа
+*  $u(a) > u(b)$
+*  $u(a) < u(b)$
+*  $u(c) > u(a)$
+*  $u(c) > u(b)$
+*  $u(c) < u(a)$
+
+
+Solution
+========
+
+
+Meta-information
+================
+exname: indifference
+extype: schoice
+exsolution: 100000
+exshuffle: 6
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exsection: ...

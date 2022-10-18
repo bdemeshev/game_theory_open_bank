@@ -1,0 +1,44 @@
+```{r data generation, echo = FALSE, results = 'hide'}
+a = sample(1:9, size = 1)
+b = sample(10:19, size = 1)
+surplus = sample(10:20, size = 1)
+
+ans = round(a + surplus/2, 2)
+wrong = c(0, 0, 0, 0)
+wrong[1] = round(a + surplus * a / (a + b), 2)
+wrong[2] = round(a + surplus * b / (a + b), 2)
+wrong[3] = round(a + surplus, 2)
+wrong[4] = round(a, 2)
+```
+
+Question
+========
+За день в одиночку Ыуы может откопать `r a` кг кореньев, а Уыу — `r b` кг кореньев. 
+Работая вместе они откопали за день `r a + b + surplus` кг.
+Сколько кг кореньев должен получить Ыуы в векторе Шепли?
+
+Ответы округлены с точностью до двух знаков после запятой. 
+
+Answerlist
+----------
+*  `r ans`
+*  `r wrong[1]`
+*  `r wrong[2]`
+*  `r wrong[3]`
+*  `r wrong[4]`
+*  нет верного ответа
+
+
+Solution
+========
+
+
+Meta-information
+================
+exname: shapley value
+extype: schoice
+exsolution: 100000
+exshuffle: 6
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exsection: ...

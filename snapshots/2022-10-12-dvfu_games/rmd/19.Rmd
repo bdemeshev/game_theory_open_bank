@@ -1,0 +1,32 @@
+```{r data generation, echo = FALSE, results = 'hide'}
+```
+
+Question
+========
+Рассмотрим одновременную игру двух игроков, у каждого из которых две чистых стратегии. 
+
+Сколько возможно равновесий Нэша в смешанных стратегиях?
+
+Answerlist
+----------
+* $\{1, 2, 3, \infty \}$
+* $\{0, 1\}$
+* $\{0, 1, \infty \}$
+* $\{0, 1, 2, 3, \infty \}$
+* $\{1, 2, \infty \}$
+* нет верного ответа 
+
+
+Solution
+========
+
+
+Meta-information
+================
+exname: number of NE
+extype: schoice
+exsolution: 100000
+exshuffle: 6
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exsection: ...
