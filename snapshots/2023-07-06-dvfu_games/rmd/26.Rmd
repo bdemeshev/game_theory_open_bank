@@ -1,0 +1,32 @@
+```{r data generation, echo = FALSE, results = 'hide'}
+```
+
+Question
+========
+Рассмотрим обычные крестики-нолики на поле 3x3, все клетки которого различны. 
+
+Выберите число, ближайшее к общему количеству чистых стратегий первого игрока.
+
+Answerlist
+----------
+* 1000000
+* 10
+* 100
+* 1000
+* 10000
+* 100000
+
+
+Solution
+========
+
+
+Meta-information
+================
+exname: tic-tac-toe number of strategies
+extype: schoice
+exsolution: 100000
+exshuffle: 6
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exsection: ...

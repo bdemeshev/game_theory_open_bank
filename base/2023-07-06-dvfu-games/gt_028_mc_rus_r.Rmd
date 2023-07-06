@@ -1,0 +1,39 @@
+```{r data generation, echo = FALSE, results = 'hide'}
+a = sample(6:10, size=1)
+b = sample(11:15, size=1)
+c = a + b + 5
+v1 = a + sample(1:3, size=1)
+v2 = c - v1
+```
+
+Question
+========
+Белка в одиночку может собрать `r a` грибов, а Лиса — `r b` грибов. 
+Вдвоём Белка и Лиса нашли `r c` грибов. 
+
+Какой вектор лежит в ядре игры (первым указан выигрыш Белки)?
+
+
+Answerlist
+----------
+*  (`r  v1`, `r v2`)
+*  (`r  a`, `r b`)
+*  (`r  v1 + 5`, `r v2`)
+*  (`r  v1`, `r v2 - 2`)
+*  (`r  b`, `r a`)
+*  нет верного ответа
+
+
+Solution
+========
+
+
+Meta-information
+================
+exname: core
+extype: schoice
+exsolution: 100000
+exshuffle: 6
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exsection: ...

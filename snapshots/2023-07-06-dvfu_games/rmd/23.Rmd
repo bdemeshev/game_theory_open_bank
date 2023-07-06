@@ -1,0 +1,37 @@
+```{r data generation, echo = FALSE, results = 'hide'}
+n = sample(c(5:20), size = 1)
+```
+
+Question
+========
+В кооперативной игре A каждая коалиция стоит на `r n` рублей больше, 
+чем соответствующая коалиция в игре B.
+
+Как связаны векторы Шепли этих игр, $v_A$ и $v_B$?
+
+
+
+Answerlist
+----------
+*  нет верного ответа
+*  $v_A = `r n`^2 + v_B$
+*  $v_A = `r n` v_B$
+*  $v_A = \sqrt{`r n`} + v_B$
+*  $v_A = v_B$
+*  $v_A = `r n` + v_B$
+
+
+
+Solution
+========
+
+
+Meta-information
+================
+exname: Shapley-add
+extype: schoice
+exsolution: 100000
+exshuffle: 6
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exsection: ...

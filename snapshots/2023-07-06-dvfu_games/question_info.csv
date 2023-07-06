@@ -1,0 +1,61 @@
+var_raw,q_no,name,ans_letter,var_no,filename,local_filename
+exam1,1,indifference probability,f,1,../base/2023-07-06-dvfu-games//gt_026_mc_rus_r.Rmd,19.Rmd
+exam1,2,shapley value,a,1,../base/2022-07-01_dvfu-games//gt_10.Rmd,12.Rmd
+exam1,3,spne choose real numbers,d,1,../base/2022-07-01_dvfu-games//gt_14.Rmd,10.Rmd
+exam1,4,nim game,d,1,../base/2023-07-06-dvfu-games//gt_027_mc_rus_r.Rmd,20.Rmd
+exam1,5,number of NE,e,1,../base/2022-10-11-dvfu-games-retake//23.Rmd,05.Rmd
+exam1,6,chess description,f,1,../base/2023-07-06-dvfu-games//gt_035_mc_rus.Rmd,28.Rmd
+exam1,7,Shapley-multiply,c,1,../base/2023-07-06-dvfu-games//gt_029_mc_rus_r.Rmd,22.Rmd
+exam1,8,wind of changes,f,1,../base/2022-07-01_dvfu-games//gt_18.Rmd,16.Rmd
+exam1,9,NE number,d,1,../base/2022-07-01_dvfu-games//gt_05.Rmd,06.Rmd
+exam1,10,spne change,a,1,../base/2023-07-06-dvfu-games//gt_034_mc_rus.Rmd,27.Rmd
+exam1,11,bayes nash,e,1,../base/2022-07-01_dvfu-games//gt_17.Rmd,14.Rmd
+exam1,12,best response,a,1,../base/2023-07-06-dvfu-games//gt_032_mc_rus.Rmd,25.Rmd
+exam1,13,constant sum game,f,1,../base/2023-07-06-dvfu-games//gt_036_mc_rus.Rmd,29.Rmd
+exam1,14,maximal number of NE,a,1,../base/2022-07-01_dvfu-games//gt_08.Rmd,08.Rmd
+exam1,15,SPNE vs NE,a,1,../base/2022-07-01_dvfu-games//gt_07.Rmd,11.Rmd
+exam1,16,core,b,1,../base/2023-07-06-dvfu-games//gt_028_mc_rus_r.Rmd,21.Rmd
+exam1,17,"simple game, NE, Pareto",a,1,../base/2022-10-11-dvfu-games-retake//22.Rmd,03.Rmd
+exam1,18,Shapley-add,d,1,../base/2023-07-06-dvfu-games//gt_030_mc_rus_r.Rmd,23.Rmd
+exam1,19,shapley and core,f,1,../base/2022-07-01_dvfu-games//gt_13.Rmd,01.Rmd
+exam1,20,backward induction or symmetry,b,1,../base/2022-07-01_dvfu-games//gt_19.Rmd,15.Rmd
+exam1,21,number of mixed strategies,c,1,../base/2022-07-01_dvfu-games//gt_03.Rmd,13.Rmd
+exam1,22,best response,c,1,../base/2022-07-01_dvfu-games//gt_06.Rmd,09.Rmd
+exam1,23,best response,b,1,../base/2022-10-11-dvfu-games-retake//21.Rmd,04.Rmd
+exam1,24,backward induction,b,1,../base/2023-07-06-dvfu-games//gt_031_mc_rus_r.Rmd,24.Rmd
+exam1,25,tic-tac-toe number of strategies,d,1,../base/2023-07-06-dvfu-games//gt_033_mc_rus.Rmd,26.Rmd
+exam1,26,number of strategies,c,1,../base/2022-07-01_dvfu-games//gt_01.Rmd,02.Rmd
+exam1,27,number of spne in repeated prisoner's dilemma,f,1,../base/2022-07-01_dvfu-games//gt_11.Rmd,07.Rmd
+exam1,28,number of NE,d,1,../base/2022-10-11-dvfu-games-retake//24.Rmd,18.Rmd
+exam1,29,ne and pareto in zero sum,a,1,../base/2022-07-01_dvfu-games//gt_15.Rmd,17.Rmd
+exam1,30,tree to matrix,b,1,../base/2023-07-06-dvfu-games//gt_037_mc_rus.Rmd,30.Rmd
+exam1,1,NE number,a,2,../base/2022-07-01_dvfu-games//gt_05.Rmd,06.Rmd
+exam1,2,shapley value,c,2,../base/2022-07-01_dvfu-games//gt_10.Rmd,12.Rmd
+exam1,3,shapley and core,d,2,../base/2022-07-01_dvfu-games//gt_13.Rmd,01.Rmd
+exam1,4,nim game,f,2,../base/2023-07-06-dvfu-games//gt_027_mc_rus_r.Rmd,20.Rmd
+exam1,5,best response,f,2,../base/2022-10-11-dvfu-games-retake//21.Rmd,04.Rmd
+exam1,6,SPNE vs NE,a,2,../base/2022-07-01_dvfu-games//gt_07.Rmd,11.Rmd
+exam1,7,Shapley-add,b,2,../base/2023-07-06-dvfu-games//gt_030_mc_rus_r.Rmd,23.Rmd
+exam1,8,wind of changes,a,2,../base/2022-07-01_dvfu-games//gt_18.Rmd,16.Rmd
+exam1,9,best response,e,2,../base/2022-07-01_dvfu-games//gt_06.Rmd,09.Rmd
+exam1,10,constant sum game,a,2,../base/2023-07-06-dvfu-games//gt_036_mc_rus.Rmd,29.Rmd
+exam1,11,Shapley-multiply,f,2,../base/2023-07-06-dvfu-games//gt_029_mc_rus_r.Rmd,22.Rmd
+exam1,12,best response,e,2,../base/2023-07-06-dvfu-games//gt_032_mc_rus.Rmd,25.Rmd
+exam1,13,number of strategies,d,2,../base/2022-07-01_dvfu-games//gt_01.Rmd,02.Rmd
+exam1,14,spne choose real numbers,d,2,../base/2022-07-01_dvfu-games//gt_14.Rmd,10.Rmd
+exam1,15,spne change,b,2,../base/2023-07-06-dvfu-games//gt_034_mc_rus.Rmd,27.Rmd
+exam1,16,maximal number of NE,f,2,../base/2022-07-01_dvfu-games//gt_08.Rmd,08.Rmd
+exam1,17,tic-tac-toe number of strategies,b,2,../base/2023-07-06-dvfu-games//gt_033_mc_rus.Rmd,26.Rmd
+exam1,18,tree to matrix,c,2,../base/2023-07-06-dvfu-games//gt_037_mc_rus.Rmd,30.Rmd
+exam1,19,ne and pareto in zero sum,c,2,../base/2022-07-01_dvfu-games//gt_15.Rmd,17.Rmd
+exam1,20,core,e,2,../base/2023-07-06-dvfu-games//gt_028_mc_rus_r.Rmd,21.Rmd
+exam1,21,"simple game, NE, Pareto",f,2,../base/2022-10-11-dvfu-games-retake//22.Rmd,03.Rmd
+exam1,22,number of NE,a,2,../base/2022-10-11-dvfu-games-retake//23.Rmd,05.Rmd
+exam1,23,backward induction,f,2,../base/2023-07-06-dvfu-games//gt_031_mc_rus_r.Rmd,24.Rmd
+exam1,24,number of spne in repeated prisoner's dilemma,d,2,../base/2022-07-01_dvfu-games//gt_11.Rmd,07.Rmd
+exam1,25,number of mixed strategies,c,2,../base/2022-07-01_dvfu-games//gt_03.Rmd,13.Rmd
+exam1,26,backward induction or symmetry,c,2,../base/2022-07-01_dvfu-games//gt_19.Rmd,15.Rmd
+exam1,27,chess description,e,2,../base/2023-07-06-dvfu-games//gt_035_mc_rus.Rmd,28.Rmd
+exam1,28,bayes nash,b,2,../base/2022-07-01_dvfu-games//gt_17.Rmd,14.Rmd
+exam1,29,indifference probability,e,2,../base/2023-07-06-dvfu-games//gt_026_mc_rus_r.Rmd,19.Rmd
+exam1,30,number of NE,c,2,../base/2022-10-11-dvfu-games-retake//24.Rmd,18.Rmd

@@ -1,0 +1,38 @@
+```{r data generation, echo = FALSE, results = 'hide'}
+a = sample(5:8, size = 1)
+b = sample(4:9, size = 1)
+
+ans = round(a*b/4, 2)
+wrong = round(a*b/c(3, 5, 6, 8), 2)
+```
+
+Question
+========
+Саша выбирает действительное число $s$, затем Тоша выбирает действительное число $t$, зная выбор Саши. 
+Выигрыш Саши равен $u_S = -s^2 + `r a`t$, выигрыш Тоши равен $u_T = -t^2 + `r b` st$.
+
+Какое число выберет Саша в равновесии Нэша, совершенном в подыграх?
+
+Answerlist
+----------
+*  `r ans`
+*  `r wrong[1]`
+*  `r wrong[2]`
+*  `r wrong[3]`
+*  `r wrong[4]`
+*  нет верного ответа
+
+
+Solution
+========
+
+
+Meta-information
+================
+exname: spne choose real numbers
+extype: schoice
+exsolution: 100000
+exshuffle: 6
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exsection: ...

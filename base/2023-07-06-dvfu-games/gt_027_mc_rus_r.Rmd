@@ -1,0 +1,44 @@
+```{r data generation, echo = FALSE, results = 'hide'}
+a = sample(7:12, size = 1)
+
+ans_correct = a - 1
+
+wrong_deltas = sample(c(-3, -2, -1, 1, -4, -5), size=4)
+ans_wrong = ans_correct + wrong_deltas
+```
+
+Question
+========
+Карим Ахмад Хан и Розарио Сальваторе Айтала играют в Ним. 
+В трёх кучках осталось два, три и `r a` камней. Ходит Айтала. 
+
+Сколько камней из большей кучки ему стоит взять, если он хочет выиграть?
+
+В Ним ходят по очереди, за один ход можно нужно взять любое количество камней из одной кучки, выигрывает тот, кто взял последний камень. 
+
+
+
+
+Answerlist
+----------
+*  `r ans_correct`
+*  `r ans_wrong[1]`
+*  `r ans_wrong[2]`
+*  `r ans_wrong[3]`
+*  `r ans_wrong[4]`
+*  нет верного ответа
+
+
+Solution
+========
+
+
+Meta-information
+================
+exname: nim game
+extype: schoice
+exsolution: 100000
+exshuffle: 6
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exsection: ...

@@ -1,0 +1,41 @@
+```{r data generation, echo = FALSE, results = 'hide'}
+a = 2*sample(2:9, size = 1)
+
+ans = round(a/(2+a), 2)
+wrong = round(c(ans / 2, ans * 1.5, ans * 2.5, ans * 3.5), 2)
+```
+
+Question
+========
+Саша и Тоша одновременно выбирают действительные числа $s$ и $t$. 
+Полезность Тоши равна $u_T = -t^2 + `r a`st$. 
+Саша может равновероятно быть в хорошем или плохом настроении. 
+В хорошем настроении полезность Саши равна $u_S = -s^2 + 2s$, в плохом — $u_S = -s^2 - 2st$.  
+
+Саша чуствует своё настроение, а Тоша не чуствует настроение Саши. 
+
+Какое $t$ выбирает Тоша в равновесии Байеса-Нэша?
+
+Answerlist
+----------
+*  `r ans`
+*  `r wrong[1]`
+*  `r wrong[2]`
+*  `r wrong[3]`
+*  `r wrong[4]`
+*  нет верного ответа
+
+
+Solution
+========
+
+
+Meta-information
+================
+exname: bayes nash
+extype: schoice
+exsolution: 100000
+exshuffle: 6
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exsection: ...

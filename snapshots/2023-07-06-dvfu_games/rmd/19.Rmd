@@ -1,0 +1,50 @@
+```{r data generation, echo = FALSE, results = 'hide'}
+a = sample(3:9, size = 1)
+e = sample(3:7, size = 1)
+b = sample(3:9, size = 1)
+f = 10 - e
+q = sample(3:9, size = 1) / 10
+
+ans_correct = f / (e + f)
+
+wrong_deltas = c(-0.2, -0.1, 0.1, 0.2)
+ans_wrong = ans_correct + wrong_deltas
+```
+
+Question
+========
+Первый игрок использует смешанную стратегию $s_1 = p a + (1-p)b$.
+При каком $p$ второй игрок будет считать стратегию $s_2 = `r q` e + `r (1-q)` f$ оптимальной?
+
+$$
+\begin{matrix}
+   & e & f \\
+a  & (`r a`, `r e`) & (0, 0) \\
+b  & (0, 0) & (`r b`, `r f`) \\
+\end{matrix}
+$$
+
+
+Answerlist
+----------
+*  `r ans_correct`
+*  `r ans_wrong[1]`
+*  `r ans_wrong[2]`
+*  `r ans_wrong[3]`
+*  `r ans_wrong[4]`
+*  нет верного ответа
+
+
+Solution
+========
+
+
+Meta-information
+================
+exname: indifference probability
+extype: schoice
+exsolution: 100000
+exshuffle: 6
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exsection: ...
